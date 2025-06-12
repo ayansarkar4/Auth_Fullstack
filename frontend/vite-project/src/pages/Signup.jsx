@@ -26,7 +26,7 @@ const Signup = () => {
       return;
     }
     try {
-      const url = "http://localhost:2000/api/v1/users/register";
+      const url = "https://auth-fullstack-api.onrender.com/users/register";
       const response = await fetch(url, {
         method: "POST",
         headers: {
