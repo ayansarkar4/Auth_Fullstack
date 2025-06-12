@@ -25,7 +25,7 @@ const Home = () => {
 
   const fetchProducts = async () => {
     try {
-      const url = "http://localhost:2000/api/v1/products/p";
+      const url = "https://auth-fullstack-api.onrender.com/products/p";
       const headers = {
         headers: {
           "Content-Type": "application/json",
