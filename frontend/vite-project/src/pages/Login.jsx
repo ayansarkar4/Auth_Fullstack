@@ -23,7 +23,7 @@ const Login = () => {
     }
 
     try {
-      const url = "http://localhost:2000/api/v1/users/login";
+      const url = "https://auth-fullstack-api.onrender.com/users/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
