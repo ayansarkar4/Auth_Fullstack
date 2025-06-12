@@ -23,7 +23,7 @@ const Login = () => {
     }
 
     try {
-      const url = "https://auth-fullstack-api.onrender.comapi/v1/users/login";
+      const url = "https://auth-fullstack-api.onrender.com/api/v1/users/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
