@@ -39,7 +39,7 @@ const Signup = () => {
       const { success, message } = data;
       if (success) {
         handelSuccess(message);
-        setSignupInfo({ fullName: "", email: "", password: "" });
+        
         setTimeout(() => {
           window.location.href = "/login"; // Redirect to login page after 1 second
         }, 1000);
